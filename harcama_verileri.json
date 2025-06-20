@@ -1,0 +1,127 @@
+{
+    "calisanlar": {
+        "86992f07-f45a-40bd-b656-0fea5ea2654d": {
+            "isim": "berkay",
+            "departman": "\u0131t",
+            "employee_id": "86992f07-f45a-40bd-b656-0fea5ea2654d"
+        },
+        "ae6fa767-c7fb-4322-83a2-036791a68bf8": {
+            "isim": "ali",
+            "departman": "pazarlama",
+            "employee_id": "ae6fa767-c7fb-4322-83a2-036791a68bf8"
+        },
+        "8b038a5b-f89e-48d0-bf54-82b1f21e1a21": {
+            "isim": "mustafa",
+            "departman": "pazarlama",
+            "employee_id": "8b038a5b-f89e-48d0-bf54-82b1f21e1a21"
+        },
+        "b5d803a6-bc2e-4359-810b-b0ffbcf1f3c5": {
+            "isim": "el\u00e7in",
+            "departman": "sat\u0131\u015f",
+            "employee_id": "b5d803a6-bc2e-4359-810b-b0ffbcf1f3c5"
+        }
+    },
+    "yoneticiler": {
+        "2cbd4102-8205-4ad8-a1ae-5e4170e08b9e": {
+            "isim": "mehmet",
+            "departman": "\u0131t",
+            "employee_id": "4670c4b0-1c60-4aac-81b0-f061d5425ac5",
+            "manager_id": "2cbd4102-8205-4ad8-a1ae-5e4170e08b9e",
+            "onaylanan_harcamalar": []
+        },
+        "663f3e50-3777-41f4-b4af-2c05f6b7895c": {
+            "isim": "musa",
+            "departman": "sat\u0131\u015f",
+            "employee_id": "93a6ae22-c60c-47c7-97de-d2611c907dde",
+            "manager_id": "663f3e50-3777-41f4-b4af-2c05f6b7895c",
+            "onaylanan_harcamalar": []
+        },
+        "6315a244-26bd-4552-9acc-9c133efe6a55": {
+            "isim": "ipek",
+            "departman": "\u0131t",
+            "employee_id": "88d2960c-d0e0-412e-ae72-038ee86f0c22",
+            "manager_id": "6315a244-26bd-4552-9acc-9c133efe6a55",
+            "onaylanan_harcamalar": []
+        }
+    },
+    "harcamalar": [
+        {
+            "tutar": 10000.0,
+            "kategori": "ulasim",
+            "tarih": "2025-05-26",
+            "aciklama": "",
+            "belge_referansi": "",
+            "receipt_id": "4548e221-6040-416d-8468-0e07360bdac2",
+            "onaylandi": true,
+            "odendi": true,
+            "odenen_tutar": 10000.0,
+            "odeme_sonrasi_durum": "tam_odeme_esik_kullanildi",
+            "calisan_id": "86992f07-f45a-40bd-b656-0fea5ea2654d"
+        },
+        {
+            "tutar": 20.0,
+            "kategori": "konaklama",
+            "tarih": "2025-05-26",
+            "aciklama": "otel masraf\u0131",
+            "belge_referansi": "",
+            "receipt_id": "c7a2e2e4-30db-4569-93c6-9d7d99d474d9",
+            "onaylandi": true,
+            "odendi": true,
+            "odenen_tutar": 20.0,
+            "odeme_sonrasi_durum": "tam_odeme",
+            "calisan_id": "b5d803a6-bc2e-4359-810b-b0ffbcf1f3c5"
+        },
+        {
+            "tutar": 40.0,
+            "kategori": "ula\u015f\u0131m",
+            "tarih": "2025-05-26",
+            "aciklama": "",
+            "belge_referansi": "",
+            "receipt_id": "06b53a20-1d24-44a2-add3-5659f21141bb",
+            "onaylandi": true,
+            "odendi": true,
+            "odenen_tutar": 40.0,
+            "odeme_sonrasi_durum": "tam_odeme",
+            "calisan_id": "b5d803a6-bc2e-4359-810b-b0ffbcf1f3c5"
+        },
+        {
+            "tutar": 300.0,
+            "kategori": "konaklama",
+            "tarih": "2025-06-26",
+            "aciklama": "",
+            "belge_referansi": "",
+            "receipt_id": "2ac763d5-f3af-4f65-a555-2c7367cede18",
+            "onaylandi": true,
+            "odendi": true,
+            "odenen_tutar": 300.0,
+            "odeme_sonrasi_durum": "tam_odeme",
+            "calisan_id": "b5d803a6-bc2e-4359-810b-b0ffbcf1f3c5"
+        },
+        {
+            "tutar": 500.0,
+            "kategori": "konaklama",
+            "tarih": "2025-07-20",
+            "aciklama": "",
+            "belge_referansi": "",
+            "receipt_id": "0d549b37-9903-47c1-9c7f-9cf5ff8728a5",
+            "onaylandi": true,
+            "odendi": true,
+            "odenen_tutar": 500.0,
+            "odeme_sonrasi_durum": "tam_odeme",
+            "calisan_id": "b5d803a6-bc2e-4359-810b-b0ffbcf1f3c5"
+        },
+        {
+            "tutar": 1200.0,
+            "kategori": "sat\u0131\u015f",
+            "tarih": "2025-05-27",
+            "aciklama": "",
+            "belge_referansi": "",
+            "receipt_id": "ec12bc57-a6f3-400e-b022-369b0efb29e1",
+            "onaylandi": true,
+            "odendi": true,
+            "odenen_tutar": 1200.0,
+            "odeme_sonrasi_durum": "tam_odeme",
+            "calisan_id": "86992f07-f45a-40bd-b656-0fea5ea2654d"
+        }
+    ]
+}
