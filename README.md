@@ -1,0 +1,1 @@
+# gider-y-netim-sistemi
